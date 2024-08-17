@@ -1,3 +1,5 @@
+## GitHub App Sandbox: Craft, Test, and Launch Your Apps in a Safe Space
+
 <p align="center">
 <img src="https://huggingface.co/datasets/MakiAi/IconAssets/resolve/main/github-app-sandbox2.png" width="60%">
 <br>
@@ -32,32 +34,32 @@
 </p>
 
 >[!IMPORTANT]
->このリポジトリのリリースノートやREADME、コミットメッセージの9割近くは[claude.ai](https://claude.ai/)や[ChatGPT4](https://chatgpt.com/)を活用した[AIRA](https://github.com/Sunwood-ai-labs/AIRA), [SourceSage](https://github.com/Sunwood-ai-labs/SourceSage), [Gaiah](https://github.com/Sunwood-ai-labs/Gaiah), [HarmonAI_II](https://github.com/Sunwood-ai-labs/HarmonAI_II)で生成しています。
+>This repository's release notes, README, and nearly 90% of commit messages are generated using [claude.ai](https://claude.ai/) and [ChatGPT4](https://chatgpt.com/) through our AI tools: [AIRA](https://github.com/Sunwood-ai-labs/AIRA), [SourceSage](https://github.com/Sunwood-ai-labs/SourceSage), [Gaiah](https://github.com/Sunwood-ai-labs/Gaiah), and [HarmonAI_II](https://github.com/Sunwood-ai-labs/HarmonAI_II).
 
-## 🌟 はじめに
+## 🌟 Introduction
 
-このリポジトリは、GitHub App 開発用のサンドボックスです。GitHub App の開発、テスト、改善を本番環境に影響を与えることなく安全に行うための環境を提供します。
+This repository provides a sandbox environment for developing GitHub Apps. This safe space allows you to develop, test, and refine your apps without affecting your production environment.
 
-## 🎥 デモ
+## 🎥 Demo
 
-（デモ動画があればここに挿入）
+(Insert a demo video here if available)
 
-## 🚀 はじめ方
+## 🚀 Getting Started
 
-（サンドボックスのセットアップ方法、GitHub App の作成手順などを記述）
+(Describe how to set up the sandbox and create a GitHub App)
 
-## 📝 更新情報
+## 📝 Release Notes
 
-- 🎉 v0.1.0 リリース:  ![v0.1.0](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.1.0) 🟢
+- 🎉 v0.1.0 Release:  ![v0.1.0](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.1.0) 🟢
 
-## 🤝 コントリビューション
+## 🤝 Contribution
 
-（コントリビューションの方法、開発への参加方法を記述）
+(Describe how to contribute and participate in development)
 
-## 📄 ライセンス
+## 📄 License
 
-（ライセンス情報を記述）
+(Describe the license information)
 
-## 🙏 謝辞
+## 🙏 Acknowledgements
 
-（謝辞を記載）
+(Mention acknowledgements)
