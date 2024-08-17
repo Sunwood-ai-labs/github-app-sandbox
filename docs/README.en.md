@@ -1,4 +1,4 @@
-## github-app-sandbox
+## GitHub App Sandbox: Craft, Test, and Launch Your Apps in a Safe Space
 
 <p align="center">
 <img src="https://huggingface.co/datasets/MakiAi/IconAssets/resolve/main/github-app-sandbox2.png" width="60%">
@@ -34,31 +34,31 @@
 </p>
 
 >[!IMPORTANT]
->Almost all release notes, README, and commit messages in this repository are generated using [claude.ai](https://claude.ai/), [ChatGPT4](https://chatgpt.com/), and AI tools like [AIRA](https://github.com/Sunwood-ai-labs/AIRA), [SourceSage](https://github.com/Sunwood-ai-labs/SourceSage), [Gaiah](https://github.com/Sunwood-ai-labs/Gaiah), [HarmonAI_II](https://github.com/Sunwood-ai-labs/HarmonAI_II).
+>This repository's release notes, README, and nearly 90% of commit messages are generated using [claude.ai](https://claude.ai/) and [ChatGPT4](https://chatgpt.com/) through our AI tools: [AIRA](https://github.com/Sunwood-ai-labs/AIRA), [SourceSage](https://github.com/Sunwood-ai-labs/SourceSage), [Gaiah](https://github.com/Sunwood-ai-labs/Gaiah), and [HarmonAI_II](https://github.com/Sunwood-ai-labs/HarmonAI_II).
 
 ## 🌟 Introduction
 
-This repository is a sandbox for GitHub App development. It provides an environment where you can develop, test, and improve your GitHub Apps safely without affecting your production environment.
+This repository provides a sandbox environment for developing GitHub Apps. This safe space allows you to develop, test, and refine your apps without affecting your production environment.
 
 ## 🎥 Demo
 
-(Insert demo video here if available)
+(Insert a demo video here if available)
 
 ## 🚀 Getting Started
 
-(Describe how to set up the sandbox, create a GitHub App, etc.)
+(Describe how to set up the sandbox and create a GitHub App)
 
-## 📝 Updates
+## 📝 Release Notes
 
-(Describe the latest updates and change history)
+- 🎉 v0.1.0 Release:  ![v0.1.0](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.1.0) 🟢
 
-## 🤝 Contributions
+## 🤝 Contribution
 
-(Describe how to contribute, participate in development, etc.)
+(Describe how to contribute and participate in development)
 
 ## 📄 License
 
-(Describe license information)
+(Describe the license information)
 
 ## 🙏 Acknowledgements
 
