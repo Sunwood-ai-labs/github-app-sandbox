@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: pypi
-      url: https://pypi.org/p/github-app-sandbox
+      url: https://pypi.org/p/aws-terraform-sandbox
     permissions:
       id-token: write
     steps:
