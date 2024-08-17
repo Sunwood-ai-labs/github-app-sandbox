@@ -38,26 +38,77 @@
 
 このリポジトリは、GitHub App 開発用のサンドボックスです。GitHub App の開発、テスト、改善を本番環境に影響を与えることなく安全に行うための環境を提供します。
 
+## 🚀 サンドボックスプロジェクト
+
+### 📬 [s01_github_pr_issue_greeter](./sandbox/s01_github_pr_issue_greeter)
+
+新しいプルリクエストやIssueが作成されたときに自動的に応答するボットです。詳細は[こちら](./sandbox/s01_github_pr_issue_greeter/README.md)をご覧ください。
+
 ## 🎥 デモ
 
-（デモ動画があればここに挿入）
+https://github.com/user-attachments/assets/7ce109ec-3913-491f-9566-f488dd31e689
+
 
 ## 🚀 はじめ方
 
-（サンドボックスのセットアップ方法、GitHub App の作成手順などを記述）
+1. **リポジトリのクローン**:
+   ```
+   git clone https://github.com/Sunwood-ai-labs/github-app-sandbox.git
+   cd github-app-sandbox
+   ```
+
+2. **依存関係のインストール**:
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. **環境設定**:
+   - `.env.example`ファイルを`.env`にコピーし、必要な情報を入力します。
+   ```
+   cp .env.example .env
+   ```
+
+4. **GitHub Appの作成**:
+   - GitHubの[Developer Settings](https://github.com/settings/developers)で新しいGitHub Appを作成します。
+   - 必要な権限を設定し、Webhook URLを指定します。
+   - 生成された秘密鍵をダウンロードし、安全な場所に保存します。
+
+5. **サンドボックスの実行**:
+   - 各サンドボックスプロジェクトのREADMEに従って、アプリケーションを実行します。
+
+詳細な手順については、各サンドボックスプロジェクトのREADMEをご参照ください。
+
 
 ## 📝 更新情報
 
-- 🎉 v0.1.0 リリース:  ![v0.1.0](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.1.0) 🟢
+- [🎉 v0.1.0 リリース](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.1.0) 🟢 ：リポジトリの初期化・自動リリースノート作成機能の付与
 
 ## 🤝 コントリビューション
 
-（コントリビューションの方法、開発への参加方法を記述）
+私たちは、コミュニティからの貢献を歓迎します！以下の方法で貢献できます：
+
+1. **イシューの報告**: バグを見つけた場合や新機能のアイデアがある場合は、GitHubのIssueを開いてください。
+
+2. **プルリクエストの提出**: コードの改善や新機能の追加を行った場合は、プルリクエストを送ってください。
+
+3. **ドキュメントの改善**: READMEや他のドキュメントの改善案がある場合は、プルリクエストを送ってください。
+
+4. **使用例の共有**: このサンドボックスを使用して開発したGitHub Appがある場合は、ぜひ共有してください。
+
+コントリビューションの際は、以下のガイドラインに従ってください：
+
+- コミットメッセージは明確で簡潔にしてください。
+- 大きな変更を加える前に、まずIssueを開いて議論してください。
 
 ## 📄 ライセンス
 
-（ライセンス情報を記述）
+このプロジェクトは[MITライセンス](LICENSE)の下で公開されています。
 
 ## 🙏 謝辞
 
-（謝辞を記載）
+- このプロジェクトは、[Anthropic](https://www.anthropic.com)の[Claude AI](https://www.anthropic.com)を活用して開発されました。
+- [GitHub](https://github.com)には、素晴らしいプラットフォームとAPIを提供していただき感謝いたします。
+- このプロジェクトの開発に貢献してくださったすべての[コントリビューター](https://github.com/Sunwood-ai-labs/github-app-sandbox/graphs/contributors)の皆様に感謝いたします。
+- [PyGithub](https://github.com/PyGithub/PyGithub)、[Flask](https://flask.palletsprojects.com/)、[python-dotenv](https://github.com/theskumar/python-dotenv)など、このプロジェクトで使用されているすべてのオープンソースライブラリの作者とメンテナーの皆様に感謝いたします。
+
+皆様のサポートとフィードバックに心から感謝いたします。このプロジェクトをより良いものにするために、引き続きご協力をお願いいたします。
