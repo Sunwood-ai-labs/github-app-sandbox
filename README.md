@@ -81,6 +81,7 @@ https://github.com/user-attachments/assets/7ce109ec-3913-491f-9566-f488dd31e689
 
 ## 📝 更新情報
 
+- [🎉 v0.2.0 リリース](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.2.0) 🟢 ：ドキュメントの改善を行いました。
 - [🎉 v0.1.0 リリース](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.1.0) 🟢 ：リポジトリの初期化・自動リリースノート作成機能の付与
 
 ## 🤝 コントリビューション
@@ -112,3 +113,4 @@ https://github.com/user-attachments/assets/7ce109ec-3913-491f-9566-f488dd31e689
 - [PyGithub](https://github.com/PyGithub/PyGithub)、[Flask](https://flask.palletsprojects.com/)、[python-dotenv](https://github.com/theskumar/python-dotenv)など、このプロジェクトで使用されているすべてのオープンソースライブラリの作者とメンテナーの皆様に感謝いたします。
 
 皆様のサポートとフィードバックに心から感謝いたします。このプロジェクトをより良いものにするために、引き続きご協力をお願いいたします。
+</readme>
