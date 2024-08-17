@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://huggingface.co/datasets/MakiAi/IconAssets/resolve/main/github-app-sandbox2.png" width="60%">
+<img src="https://huggingface.co/datasets/MakiAi/IconAssets/resolve/main/github-app-sandbox2.png" width="100%">
 <br>
 <h1 align="center">github-app-sandbox</h1>
 <h2 align="center">
