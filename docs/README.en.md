@@ -34,24 +34,23 @@
 </p>
 
 >[!IMPORTANT]
->This repository's release notes, README, and nearly 90% of its commit messages are generated using [claude.ai](https://claude.ai/), [ChatGPT4](https://chatgpt.com/), and AI tools such as [AIRA](https://github.com/Sunwood-ai-labs/AIRA), [SourceSage](https://github.com/Sunwood-ai-labs/SourceSage), [Gaiah](https://github.com/Sunwood-ai-labs/Gaiah), and [HarmonAI_II](https://github.com/Sunwood-ai-labs/HarmonAI_II).
+>Nearly 90% of this repository's release notes, README, and commit messages are generated using [claude.ai](https://claude.ai/) and [ChatGPT4](https://chatgpt.com/) with the help of [AIRA](https://github.com/Sunwood-ai-labs/AIRA), [SourceSage](https://github.com/Sunwood-ai-labs/SourceSage), [Gaiah](https://github.com/Sunwood-ai-labs/Gaiah), and [HarmonAI_II](https://github.com/Sunwood-ai-labs/HarmonAI_II).
 
-## 🌟 Introduction
+## 🌟 Getting Started
 
-This repository provides a sandbox for developing GitHub Apps. It offers a safe environment for crafting, testing, and refining your GitHub Apps without affecting your production environment.
+This repository provides a sandbox for GitHub App development. It offers a safe environment to develop, test, and refine your GitHub Apps without impacting your production environment.
 
 ## 🚀 Sandbox Projects
 
 ### 📬 [s01_github_pr_issue_greeter](./sandbox/s01_github_pr_issue_greeter)
 
-This bot automatically responds to new pull requests and issues. For more details, see [here](./sandbox/s01_github_pr_issue_greeter/README.md).
+This is a bot that automatically responds to new Pull Requests and Issues. For details, see [here](./sandbox/s01_github_pr_issue_greeter/README.md).
 
 ## 🎥 Demo
 
 https://github.com/user-attachments/assets/7ce109ec-3913-491f-9566-f488dd31e689
 
-
-## 🚀 Getting Started
+## 🚀 How to Start
 
 1. **Clone the repository**:
    ```
@@ -64,35 +63,34 @@ https://github.com/user-attachments/assets/7ce109ec-3913-491f-9566-f488dd31e689
    pip install -r requirements.txt
    ```
 
-3. **Set up the environment**:
+3. **Configure the environment**:
    - Copy the `.env.example` file to `.env` and fill in the necessary information.
    ```
    cp .env.example .env
    ```
 
 4. **Create a GitHub App**:
-   - Create a new GitHub App in the [Developer Settings](https://github.com/settings/developers) on GitHub.
-   - Configure the necessary permissions and specify the webhook URL.
-   - Download the generated private key and store it securely.
+   - Create a new GitHub App in GitHub's [Developer Settings](https://github.com/settings/developers).
+   - Configure the necessary permissions and specify the Webhook URL.
+   - Download the generated private key and store it in a safe location.
 
 5. **Run the sandbox**:
-   - Follow the README for each sandbox project to run the application.
+   - Follow the README of each sandbox project to run the application.
 
-For detailed instructions, please refer to the README of each sandbox project.
+Refer to the README of each sandbox project for detailed instructions.
 
+## 📝 Update Information
 
-## 📝 Updates
-
-- [🎉 v0.2.0 release](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.2.0) 🟢: Improved documentation.
-- [🎉 v0.1.0 release](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.1.0) 🟢: Initial repository setup and automatic release notes creation enabled.
+- [🎉 v0.2.0 Release](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.2.0) 🟢 ：Created a minimally configured [s01_github_pr_issue_greeter](./sandbox/s01_github_pr_issue_greeter) GitHub App in Python.
+- [🎉 v0.1.0 Release](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.1.0) 🟢 ：Initialized the repository and added automatic release note generation capabilities.
 
 ## 🤝 Contributions
 
 We welcome contributions from the community! You can contribute in the following ways:
 
-1. **Report issues**: If you find a bug or have an idea for a new feature, open an issue on GitHub.
+1. **Report issues**: If you find any bugs or have ideas for new features, open an Issue on GitHub.
 
-2. **Submit pull requests**: If you make improvements to the code or add new features, submit a pull request.
+2. **Submit pull requests**: If you have made improvements to the code or added new features, submit a pull request.
 
 3. **Improve documentation**: If you have suggestions for improving the README or other documentation, submit a pull request.
 
@@ -100,8 +98,8 @@ We welcome contributions from the community! You can contribute in the following
 
 When contributing, please follow these guidelines:
 
-- Keep commit messages clear and concise.
-- Open an issue to discuss large changes before making them.
+- Commit messages should be clear and concise.
+- Before making significant changes, open an Issue to discuss them first.
 
 ## 📄 License
 
@@ -110,9 +108,8 @@ This project is licensed under the [MIT License](LICENSE).
 ## 🙏 Acknowledgements
 
 - This project was developed using [Anthropic](https://www.anthropic.com)'s [Claude AI](https://www.anthropic.com).
-- We are grateful to [GitHub](https://github.com) for providing an amazing platform and APIs.
-- We thank all the [contributors](https://github.com/Sunwood-ai-labs/github-app-sandbox/graphs/contributors) who have helped develop this project.
-- We appreciate the authors and maintainers of all the open source libraries used in this project, including [PyGithub](https://github.com/PyGithub/PyGithub), [Flask](https://flask.palletsprojects.com/), and [python-dotenv](https://github.com/theskumar/python-dotenv).
+- We are grateful to [GitHub](https://github.com) for providing an excellent platform and API.
+- Thanks to all the [contributors](https://github.com/Sunwood-ai-labs/github-app-sandbox/graphs/contributors) who have helped develop this project.
+- We appreciate the authors and maintainers of all the open-source libraries used in this project, including [PyGithub](https://github.com/PyGithub/PyGithub), [Flask](https://flask.palletsprojects.com/), and [python-dotenv](https://github.com/theskumar/python-dotenv).
 
-We are truly grateful for your support and feedback. We continue to work together to make this project even better.
-</readme>
+We are sincerely grateful for your support and feedback. We are committed to making this project better and appreciate your continued collaboration.
