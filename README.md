@@ -48,7 +48,7 @@
 
 ## 📝 更新情報
 
-（最新の更新情報や変更履歴を記述）
+- 🎉 v0.1.0 リリース:  ![v0.1.0](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.1.0) 🟢
 
 ## 🤝 コントリビューション
 
@@ -60,5 +60,4 @@
 
 ## 🙏 謝辞
 
-（謝辞を記載） 
-
+（謝辞を記載）
