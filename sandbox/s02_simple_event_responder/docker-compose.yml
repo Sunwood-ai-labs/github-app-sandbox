@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  github_event_responder:
+    build: .
+    container_name: github_event_responder
+    # ports:
+    #   - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+  smee:
+    image: deltaprojects/smee-client
+    container_name: smee_client
+    command: -u ${SMEE_URL} --target http://github_event_responder:8000
+    environment:
+      - SMEE_URL=${SMEE_URL}
+    depends_on:
+      - github_event_responder
