@@ -35,27 +35,23 @@
 
 </h2>
 
-
-
-
-</p>
-
 >[!IMPORTANT]
->Nearly 90% of the release notes, README, and commit messages in this repository are generated using [claude.ai](https://claude.ai/), [ChatGPT4](https://chatgpt.com/), and our AI tools: [AIRA](https://github.com/Sunwood-ai-labs/AIRA), [SourceSage](https://github.com/Sunwood-ai-labs/SourceSage), [Gaiah](https://github.com/Sunwood-ai-labs/Gaiah), and [HarmonAI_II](https://github.com/Sunwood-ai-labs/HarmonAI_II).
+>This repository's release notes, README, and nearly 90% of its commit messages were generated using [claude.ai](https://claude.ai/) and [ChatGPT4](https://chatgpt.com/) through [AIRA](https://github.com/Sunwood-ai-labs/AIRA), [SourceSage](https://github.com/Sunwood-ai-labs/SourceSage), [Gaiah](https://github.com/Sunwood-ai-labs/Gaiah), and [HarmonAI_II](https://github.com/Sunwood-ai-labs/HarmonAI_II).
 
 ## 🌟 Getting Started
 
-This repository provides a sandbox for GitHub App development. It offers an environment to safely develop, test, and improve your GitHub Apps without affecting your production environment.
+This repository serves as a sandbox for GitHub App development. It provides a safe environment for you to develop, test, and improve your GitHub Apps without affecting your production environment.
+
 
 ## 🚀 Sandbox Projects
 
 ### 📬 [s01_github_pr_issue_greeter](./sandbox/s01_github_pr_issue_greeter)
 
-This is a minimal GitHub App sample implemented in Python. It provides basic functionality to automatically respond when a new pull request or issue is created. This is ideal for understanding the basic structure and operation of GitHub Apps. For details, see [here](./sandbox/s01_github_pr_issue_greeter/README.md).
+This is a minimal sample of a GitHub App implemented in Python. It has basic functionality to automatically respond when new pull requests or issues are created. This project is ideal for understanding the fundamental structure and operation of GitHub Apps. See [here](./sandbox/s01_github_pr_issue_greeter/README.md) for more details.
 
 ### 📮 [s02_simple_event_responder](./sandbox/s02_simple_event_responder)
 
-This is a more advanced GitHub App sample created using FastAPI and Docker. It responds to various GitHub events with customizable responses. It is suitable for learning how to implement event filtering and conditional actions. For details, see [here](./sandbox/s02_simple_event_responder/README.md).
+This sample, created using FastAPI and Docker, demonstrates a more advanced GitHub App. It responds to various GitHub events with customizable responses. It's a good project for learning how to filter events and implement conditional actions. More details can be found [here](./sandbox/s02_simple_event_responder/README.md).
 
 ## 🎥 Demo
 
@@ -72,44 +68,46 @@ https://github.com/user-attachments/assets/7ce109ec-3913-491f-9566-f488dd31e689
 2. **Install Docker**:
    - Install Docker from the [official Docker website](https://www.docker.com/get-started).
 
-3. **Set up the environment**:
+3. **Set up environment**:
    - Copy the `.env.example` file to `.env` and fill in the required information.
    ```
    cp .env.example .env
    ```
 
 4. **Create a GitHub App**:
-   - Create a new GitHub App in your GitHub's [Developer Settings](https://github.com/settings/developers).
-   - Set the necessary permissions and specify the Webhook URL.
-   - Download the generated private key and store it in a secure location.
+   - Create a new GitHub App in GitHub's [Developer Settings](https://github.com/settings/developers).
+   - Set the necessary permissions and specify the webhook URL.
+   - Download the generated private key and store it in a safe place.
 
 5. **Run the sandbox**:
-   - Build and run the application using Docker according to the README of each sandbox project.
+   - Build and run the application using Docker as instructed in the README of each sandbox project.
 
-For detailed instructions, refer to the README of each sandbox project.
+For detailed instructions, please refer to the README of each sandbox project.
 
 ## 📝 Update Information
 
-- [🎉 v0.3.1 Released](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.3.1) 🟢 : Added [s02_simple_event_responder](./sandbox/s02_simple_event_responder), clarified the use of FastAPI and Docker, updated the English README, added a use case image, and added documentation badges.
-- [🎉 v0.2.0 Released](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.2.0) 🟢 : Created a minimal GitHub App sample in Python, [s01_github_pr_issue_greeter](./sandbox/s01_github_pr_issue_greeter).
-- [🎉 v0.1.0 Released](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.1.0) 🟢 : Initial repository setup and added automatic release notes creation functionality.
+- [🎉 v0.3.3 Release](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.3.3) 🟢 ：Improved documentation and added sandbox projects
+- [🎉 v0.3.1 Release](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.3.1) 🟢 ：Added [s02_simple_event_responder](./sandbox/s02_simple_event_responder), clarified FastAPI and Docker usage, updated English README, added use case images, and added documentation badges
+- [🎉 v0.2.0 Release](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.2.0) 🟢 ：Created a minimal Python-based GitHub App sample [s01_github_pr_issue_greeter](./sandbox/s01_github_pr_issue_greeter)
+- [🎉 v0.1.0 Release](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.1.0) 🟢 ：Initialized the repository and added automatic release notes creation functionality
+
 
 ## 🤝 Contributions
 
 We welcome contributions from the community! You can contribute in the following ways:
 
-1. **Report issues**: If you find a bug or have an idea for a new feature, please open an issue on GitHub.
+1. **Report Issues**: If you find any bugs or have ideas for new features, please open an issue on GitHub.
 
-2. **Submit pull requests**: If you've made improvements to the code or added new features, please submit a pull request.
+2. **Submit Pull Requests**: If you make any code improvements or add new features, please submit a pull request.
 
-3. **Improve the documentation**: If you have suggestions for improving the README or other documentation, please submit a pull request.
+3. **Improve Documentation**: If you have suggestions for improving the README or other documentation, please submit a pull request.
 
-4. **Share your use cases**: If you have developed a GitHub App using this sandbox, please share it with us!
+4. **Share Your Use Cases**: If you have developed a GitHub App using this sandbox, please share it!
 
 When contributing, please follow these guidelines:
 
 - Keep your commit messages clear and concise.
-- Open an issue to discuss major changes before making them.
+- Discuss any major changes with us by opening an issue first.
 
 ## 📄 License
 
@@ -117,9 +115,10 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🙏 Acknowledgements
 
-- This project was developed using [Claude AI](https://www.anthropic.com) from [Anthropic](https://www.anthropic.com).
-- We are grateful to [GitHub](https://github.com) for providing a fantastic platform and API.
-- We would like to thank all the [contributors](https://github.com/Sunwood-ai-labs/github-app-sandbox/graphs/contributors) who have contributed to the development of this project.
-- Thanks to the authors and maintainers of all the open source libraries used in this project, such as [PyGithub](https://github.com/PyGithub/PyGithub), [Flask](https://flask.palletsprojects.com/), and [python-dotenv](https://github.com/theskumar/python-dotenv).
+- This project was developed using [Anthropic](https://www.anthropic.com)'s [Claude AI](https://www.anthropic.com).
+- We thank [GitHub](https://github.com) for providing the amazing platform and APIs.
+- Thanks to all the [contributors](https://github.com/Sunwood-ai-labs/github-app-sandbox/graphs/contributors) who have helped develop this project.
+- Thanks to the authors and maintainers of all the open-source libraries used in this project, including [PyGithub](https://github.com/PyGithub/PyGithub), [Flask](https://flask.palletsprojects.com/), [python-dotenv](https://github.com/theskumar/python-dotenv), and more.
 
-We sincerely appreciate your support and feedback. We will continue to work together to make this project better.
+We are sincerely grateful for your support and feedback. We continue to appreciate your cooperation in making this project even better.
+</readme>
