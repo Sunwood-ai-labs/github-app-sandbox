@@ -1,4 +1,4 @@
-# 🤖 s02_simple_event_responder
+![](../../docs/usage/usage_02.png)
 
 このプロジェクトは、GitHubリポジトリに新しいプルリクエスト（PR）やIssueが作成されたときに自動的に応答するボットです。
 
