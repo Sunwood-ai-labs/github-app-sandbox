@@ -89,6 +89,7 @@ https://github.com/user-attachments/assets/7ce109ec-3913-491f-9566-f488dd31e689
 
 ## 📝 更新情報
 
+- [🎉 v0.3.3 リリース](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.3.3) 🟢 ：ドキュメントの改善とサンドボックスプロジェクトの追加
 - [🎉 v0.3.1 リリース](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.3.1) 🟢 ：[s02_simple_event_responder](./sandbox/s02_simple_event_responder)の追加、FastAPIとDockerの使用を明確化、英語READMEの更新、ユースケース画像の追加、ドキュメントバッジの追加
 - [🎉 v0.2.0 リリース](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.2.0) 🟢 ：PythonによるGitHub Appの最小構成サンプル[s01_github_pr_issue_greeter](./sandbox/s01_github_pr_issue_greeter)を作成
 - [🎉 v0.1.0 リリース](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.1.0) 🟢 ：リポジトリの初期化・自動リリースノート作成機能の付与
@@ -123,3 +124,4 @@ https://github.com/user-attachments/assets/7ce109ec-3913-491f-9566-f488dd31e689
 - [PyGithub](https://github.com/PyGithub/PyGithub)、[Flask](https://flask.palletsprojects.com/)、[python-dotenv](https://github.com/theskumar/python-dotenv)など、このプロジェクトで使用されているすべてのオープンソースライブラリの作者とメンテナーの皆様に感謝いたします。
 
 皆様のサポートとフィードバックに心から感謝いたします。このプロジェクトをより良いものにするために、引き続きご協力をお願いいたします。
+</readme>
