@@ -1,6 +1,12 @@
-![](../../docs/usage/usage_02.png)
 
-このプロジェクトは、GitHubリポジトリに新しいプルリクエスト（PR）やIssueが作成されたときに自動的に応答するボットです。
+
+![Usage Example](../../docs/usage/usage_02.png)
+
+# 🤖 FastAPI & Docker GitHub App サンプル（s02_simple_event_responder）
+
+このプロジェクトは、FastAPIとDockerを使用して作成されたGitHub Appのサンプルです。GitHubリポジトリに新しいプルリクエスト（PR）やIssueが作成されたときに自動的に応答するボットとして機能します。
+
+https://github.com/user-attachments/assets/0f268037-d7cd-42da-aefa-16f8c94682da
 
 ## 🌟 機能
 
@@ -8,6 +14,7 @@
 - 📝 新しいIssueが作成されたときに自動的にコメントを付けます。
 - 📊 ログ機能により、ボットの動作を追跡できます。
 - 🐳 Dockerを使用して簡単にデプロイとスケーリングが可能です。
+- 🚀 FastAPIを使用した高速で効率的なAPIサーバー
 
 ## 🛠️ セットアップ
 
@@ -44,7 +51,6 @@
 
 4. GitHubリポジトリで新しいPRやIssueを作成して、ボットの動作を確認します。
 
-
 ## 🔧 開発環境
 
 - Python 3.9
@@ -56,6 +62,7 @@
 
 - `github_bot.py`ファイルを変更して、ボットのPRやIssueへの応答をカスタマイズできます。
 - `GithubBot`クラスの`setup_logger`メソッドでログ設定を調整できます。
+- FastAPIのルートは`main.py`で定義されており、必要に応じて新しいエンドポイントを追加できます。
 
 ## 🤝 コントリビューション
 
