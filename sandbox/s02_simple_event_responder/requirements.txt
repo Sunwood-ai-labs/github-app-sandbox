@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+PyGithub
+python-dotenv
+loguru
