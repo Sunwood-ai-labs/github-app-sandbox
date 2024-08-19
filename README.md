@@ -51,6 +51,10 @@
 
 新しいプルリクエストやIssueが作成されたときに自動的に応答するボットです。詳細は[こちら](./sandbox/s01_github_pr_issue_greeter/README.md)をご覧ください。
 
+### 📮 [s02_simple_event_responder](./sandbox/s02_simple_event_responder)
+
+簡単なイベントに応答するボットです。詳細は[こちら](./sandbox/s02_simple_event_responder/README.md)をご覧ください。
+
 ## 🎥 デモ
 
 https://github.com/user-attachments/assets/7ce109ec-3913-491f-9566-f488dd31e689
@@ -88,6 +92,7 @@ https://github.com/user-attachments/assets/7ce109ec-3913-491f-9566-f488dd31e689
 
 ## 📝 更新情報
 
+- [🎉 v0.3.1 リリース](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.3.1) 🟢 ：英語READMEの更新、ユースケース画像の追加、ドキュメントバッジの追加
 - [🎉 v0.2.0 リリース](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.2.0) 🟢 ：最小構成のgithub app pythonの[s01_github_pr_issue_greeter](./sandbox/s01_github_pr_issue_greeter)を作成
 - [🎉 v0.1.0 リリース](https://github.com/Sunwood-ai-labs/github-app-sandbox/releases/tag/v0.1.0) 🟢 ：リポジトリの初期化・自動リリースノート作成機能の付与
 
@@ -120,4 +125,3 @@ https://github.com/user-attachments/assets/7ce109ec-3913-491f-9566-f488dd31e689
 - [PyGithub](https://github.com/PyGithub/PyGithub)、[Flask](https://flask.palletsprojects.com/)、[python-dotenv](https://github.com/theskumar/python-dotenv)など、このプロジェクトで使用されているすべてのオープンソースライブラリの作者とメンテナーの皆様に感謝いたします。
 
 皆様のサポートとフィードバックに心から感謝いたします。このプロジェクトをより良いものにするために、引き続きご協力をお願いいたします。
-
